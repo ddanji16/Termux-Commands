@@ -1,0 +1,85 @@
+
+
+  ____ ___  __  __ __  __    _    _   _ ____  ____
+ / ___/ _ \|  \/  |  \/  |  / \  | \ | |  _ \/ ___|
+| |  | | | | |\/| | |\/| | / _ \ |  \| | | | \___ \
+| |__| |_| | |  | | |  | |/ ___ \| |\  | |_| |___) |
+ \____\___/|_|  |_|_|  |_/_/   \_\_| \_|____/|____/
+
+
+*** termux-setup-storage - to allow acces files
+*** apt install <packages> - to install new packages/app
+*** nala install <packages> - same intall but in cool way
+*** apt update - to update packages
+*** apt upgrade - to upgrade packages
+*** termux-open <file> - to open file in termux/app
+*** ls - to view all files
+*** clear - to clear sceeen
+*** pwd - to find file path
+*** dir - to view all files
+*** cd <file>  - to change directory 
+*** cd .. - to go back/ step back
+*** cd ~ / cd - to reset or back to zero
+*** mkdir - to create folder
+*** rmdir - to delete folder
+*** rm <file> - to delete file 
+*** rm <folder> - to delete empty folder
+*** rm -rf <file/folder> - to delete all
+*** touch <file name> - to create new file
+*** cp <source> <destination>` -  Copy files or directories.
+*** mv <source> <destination>` - Move or rename files
+*** wget: Downloads files from the internet.
+*** cat - Display File Contents
+*** history - command shows a list of previously used commands
+
+
+
+*** vim <File name> - to open compiler/editor
+*** micro <File name> -  to open compiler/ editor || CTRL + q + y  - to exit 
+*** nano <File name> - to open compiler/editor || i - insert  || ESC + : w/q - save&exit
+
+
+
+*** cmatrix - Cool rain / Cmatrix + color
+*** cacafire - Cool Fire
+*** figlet "text" - to make big font
+*** bastet - a game box box
+
+
+____ ___ _____                                                 _
+ / ___|_ _|_   _|   ___ ___  _ __ ___  _ __ ___   __ _ _ __   __| |___
+| |  _ | |  | |    / __/ _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|
+| |_| || |  | |   | (_| (_) | | | | | | | | | | | (_| | | | | (_| \__ \
+ \____|___| |_|    \___\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/
+ 
+
+ **** git init - to initialize repo
+ **** git add . - to prepare before commiting
+ **** git commit - to be ready to push in github
+ **** git remote add origin <url> - to connect git & github
+ **** git push origin master / main - to push or upload to github
+ **** git log - to view commits/ history
+ **** git log --oneline - same but in specific way
+ **** git branch - to view current branch
+ **** git checkout <num in git log> to go back the previous code
+ **** git clone <url> - copy/ Clone a repository into a new directory from github
+ **** git  fetch -  Download objects and refs from another repository
+ **** git  pull <url> -Fetch from and integrate with another repository/ a local branch
+ **** git config --global --add safe.directory /storage/emulated/0/Documents/Termux-Commands
+ ****  git config --global user.email "you@example.com" - to know git who u r
+ ****  git config --global user.name "Your Name" - to know git ur name
+
+_____                                _____ _
+|_   _|__ _ __ _ __ ___  _   ___  __ |_   _| |__   ___ _ __ ___   ___
+  | |/ _ \ '__| '_ ` _ \| | | \ \/ /   | | | '_ \ / _ \ '_ ` _ \ / _ \
+  | |  __/ |  | | | | | | |_| |>  <    | | | | | |  __/ | | | | |  __/
+  |_|\___|_|  |_| |_| |_|\__,_/_/\_\   |_| |_| |_|\___|_| |_| |_|\___|
+
+
+*** step 1 - apt update && apt upgrade
+*** step 2 - pkg install python 
+*** step 3 - pkg install git
+*** step 4 - git clone https://github.com/WhiteSoulEvLF/Termux-Theme.git
+*** step 5 - cd Termux-Theme
+*** step 6 - bash Requirements.sh
+*** step 7 - bash Main.sh
