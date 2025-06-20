@@ -31,7 +31,10 @@
 *** wget: Downloads files from the internet.
 *** cat - Display File Contents
 *** history - command shows a list of previously used commands
-
+*** `df` - Display disk usage.
+*** du - display something
+*** uname -a` - Display system information.
+*** top` - Display system processes.
 
 
 *** vim <File name> - to open compiler/editor
@@ -43,7 +46,7 @@
 *** cmatrix - Cool rain / Cmatrix + color
 *** cacafire - Cool Fire
 *** figlet "text" - to make big font
-*** bastet - a game box box
+*** nsnake - cool snake game
 
 
 ____ ___ _____                                                 _
@@ -75,7 +78,7 @@ ____ ___ _____                                                 _
 
 
 
-OPTION 1: (push automatically) 
+OPTION 1: (push automatically)
 
 *** step 1: apt / nala install gh
 *** step 2: gh auth login
@@ -95,6 +98,7 @@ OPTION 2: (using github token link)
      as a password. then push. the bad thing is it will ask again. then paste the token link.
 
 
+
 _____                                _____ _
 |_   _|__ _ __ _ __ ___  _   ___  __ |_   _| |__   ___ _ __ ___   ___
   | |/ _ \ '__| '_ ` _ \| | | \ \/ /   | | | '_ \ / _ \ '_ ` _ \ / _ \
@@ -108,4 +112,39 @@ _____                                _____ _
 *** step 4 - git clone https://github.com/WhiteSoulEvLF/Termux-Theme.git
 *** step 5 - cd Termux-Theme
 *** step 6 - bash Requirements.sh
-*** step 7 - bash Main.sh
+*** step 7 - bash Main.s
+
+
+
+
+ ____  _   _ _____ ____  _     ___   ____ _  __
+/ ___|| | | | ____|  _ \| |   / _ \ / ___| |/ /
+\___ \| |_| |  _| | |_) | |  | | | | |   | ' /
+ ___) |  _  | |___|  _ <| |__| |_| | |___| . \
+|____/|_| |_|_____|_| \_\_____\___/ \____|_|\_\
+
+  ____ ___  __  __ __  __    _    _   _ ____  ____
+ / ___/ _ \|  \/  |  \/  |  / \  | \ | |  _ \/ ___|
+| |  | | | | |\/| | |\/| | / _ \ |  \| | | | \___ \
+| |__| |_| | |  | | |  | |/ ___ \| |\  | |_| |___) |
+ \____\___/|_|  |_|_|  |_/_/   \_\_| \_|____/|____/
+
+
+Sherlock is a popular tool that is used to find someone’s all social media platforms accounts just by their username. It is capable of finding someone on over 150 social media platforms.
+Sherlock just needs a username, and then it will automatically search for that specific username on over 150 popular social media platforms.
+
+
+**** step 1: apt update && apt upgrade -yh
+**** step 2: pkg install git -y
+**** step 3: pkg install golang -y
+**** step 4: git clone https://github.com/mesuutt/sherlock.git
+**** step 5: cd sherlock
+**** step 6: go mod init sherlock
+**** step 7: go get github.com/fatih/color && go get github.com/spf13/cobra
+**** step 8: go build
+**** step 9: ./sherlock
+
+**** cd sherlock
+
+**** step 10: ./sherlock <username> - to run sherlock
+**** step 11: ./sherlock example_username_123 - Example
