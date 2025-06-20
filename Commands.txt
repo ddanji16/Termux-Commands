@@ -71,11 +71,28 @@ ____ ___ _____                                                 _
 
 
 
+// TO LOGIN GITHUB IN TERMUX AND PUSH AUTOMATICALLY
+
+
+
+OPTION 1: (push automatically) 
+
+*** step 1: apt / nala install gh
+*** step 2: gh auth login
+*** step 3: choose github
+*** step 4: choose HTTP
+*** step 5: login with a web browser
+*** step 6: copy the code provided by termux and enter to open github in chrome then paste it.
+            it will automatically open in chrome when u enter after copying the code. finish.
+
+
+
+OPTION 2: (using github token link)
 
 **** When u want to push for the first time in github u need git to know who u are
      by the commands of global --user and it ask your github email and pass but u just need
      to enter the github email and create a token (classic) from github setting theb u will enter it
-     as a password. then push.
+     as a password. then push. the bad thing is it will ask again. then paste the token link.
 
 
 _____                                _____ _
