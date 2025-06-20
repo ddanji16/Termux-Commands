@@ -69,6 +69,15 @@ ____ ___ _____                                                 _
  ****  git config --global user.email "you@example.com" - to know git who u r
  ****  git config --global user.name "Your Name" - to know git ur name
 
+
+
+
+**** When u want to push for the first time in github u need git to know who u are
+     by the commands of global --user and it ask your github email and pass but u just need
+     to enter the github email and create a token (classic) from github setting theb u will enter it
+     as a password. then push.
+
+
 _____                                _____ _
 |_   _|__ _ __ _ __ ___  _   ___  __ |_   _| |__   ___ _ __ ___   ___
   | |/ _ \ '__| '_ ` _ \| | | \ \/ /   | | | '_ \ / _ \ '_ ` _ \ / _ \
