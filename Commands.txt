@@ -37,6 +37,7 @@
 *** rm -rf <file/folder> - to delete all
 *** touch <file name> - to create new file
 *** cp <source> <destination>` -  Copy files or directories.
+*** Example -  ( cp Commands.txt storage/documents/Termux-Commands )
 *** mv <source> <destination>` - Move or rename files
 *** wget: Downloads files from the internet.
 *** cat - Display File Contents
