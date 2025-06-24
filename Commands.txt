@@ -1,4 +1,14 @@
 
+                                   .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$$
+      :$$NWX!!:           .:!!!!!!XUWW$$$$$$$$$P
+      $$$$$##WX!:      .<!!!!UW$$$$"  $$$$$$$$#
+      $$$$$  $$$UX   :!!UW$$$$$$$$$   4$$$$$*
+      ^$$$B  $$$$\     $$$$$$$$$$$$   d$$R"
+        "*$bd$$$$      '*$$$$$$$$$$$o+#"
+             """"          """""""
+
 
   ____ ___  __  __ __  __    _    _   _ ____  ____
  / ___/ _ \|  \/  |  \/  |  / \  | \ | |  _ \/ ___|
@@ -170,3 +180,52 @@ Sherlock just needs a username, and then it will automatically search for that s
 ***** Step 6: bash tools-installer.sh
 
 ***** Note: cd tools-installer then ./tools-installer.sh
+
+
+
+ ____             _    _____ _         _____           _
+|  _ \  __ _ _ __| | _|  ___| |_   _  |_   _|__   ___ | |
+| | | |/ _` | '__| |/ / |_  | | | | |   | |/ _ \ / _ \| |
+| |_| | (_| | |  |   <|  _| | | |_| |   | | (_) | (_) | |
+|____/ \__,_|_|  |_|\_\_|   |_|\__, |   |_|\___/ \___/|_|
+                               |___/
+
+
+**** Step 1: pkg install python2 
+**** Step 2: pkg install git
+**** Step 3: https://github.com/Ranginang67/DarkFly-Tool
+**** Step 4: cd DarkFly-Tool
+**** Step 5: python2 install.py
+
+**** Step 6: DarkFly
+
+**** Note: DarkFly then run
+
+
+
+
+ _____               _      _
+|  ___|__  ___   ___(_) ___| |_ _   _
+| |_ / __|/ _ \ / __| |/ _ \ __| | | |
+|  _|\__ \ (_) | (__| |  __/ |_| |_| |
+|_|  |___/\___/ \___|_|\___|\__|\__, |
+                                |___/
+
+**** step 1: cd tools-installer - installs fsociety
+**** Step 2: ./install.sh
+**** Step 3: python2 fsociety.py
+
+
+Note: to run just cd tools-installer and cd fsociety then python2 fsociety.py
+
+
+
+ _____ _     _
+|  ___(_)___| |__
+| |_  | / __| '_ \
+|  _| | \__ \ | | |
+|_|   |_|___/_| |_|
+
+
+type "fish" then root or fake Root
+
