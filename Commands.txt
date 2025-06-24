@@ -148,3 +148,25 @@ Sherlock just needs a username, and then it will automatically search for that s
 
 **** step 10: ./sherlock <username> - to run sherlock
 **** step 11: ./sherlock example_username_123 - Example
+
+
+
+
+
+ _   _    _    ____ _  _____ _   _  ____   _____ ___   ___  _     ____ /\/|
+| | | |  / \  / ___| |/ /_ _| \ | |/ ___| |_   _/ _ \ / _ \| |   / ___|/\/
+| |_| | / _ \| |   | ' / | ||  \| | |  _    | || | | | | | | |   \___ \
+|  _  |/ ___ \ |___| . \ | || |\  | |_| |   | || |_| | |_| | |___ ___) |
+|_| |_/_/   \_\____|_|\_\___|_| \_|\____|   |_| \___/ \___/|_____|____/
+
+
+
+
+***** Step 1: apt update && apt upgrade 
+***** Step 2: apt install git
+***** Step 3: git clone https://github.com/TermuxHackz/tools-installer
+***** Step 4: cd tools-installer
+***** Step 5: chmod 777 *
+***** Step 6: bash tools-installer.sh
+
+***** Note: cd tools-installer then ./tools-installer.sh
