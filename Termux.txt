@@ -1,0 +1,247 @@
+E
+
+
+                                    .::!!!!!!!:.
+  .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$$
+      :$$NWX!!:           .:!!!!!!XUWW$$$$$$$$$P
+      $$$$$##WX!:      .<!!!!UW$$$$"  $$$$$$$$#
+      $$$$$  $$$UX   :!!UW$$$$$$$$$   4$$$$$*
+      ^$$$B  $$$$\     $$$$$$$$$$$$   d$$R"
+        "*$bd$$$$      '*$$$$$$$$$$$o+#"
+             """"          """""""
+
+
+  ____ ___  __  __ __  __    _    _   _ ____  ____
+ / ___/ _ \|  \/  |  \/  |  / \  | \ | |  _ \/ ___|
+| |  | | | | |\/| | |\/| | / _ \ |  \| | | | \___ \
+| |__| |_| | |  | | |  | |/ ___ \| |\  | |_| |___) |
+ \____\___/|_|  |_|_|  |_/_/   \_\_| \_|____/|____/
+
+
+*** termux-setup-storage - to allow acces files
+*** apt install <packages> - to install new packages/app
+*** nala install <packages> - same intall but in cool way
+*** apt update - to update packages
+*** apt upgrade - to upgrade packages
+*** termux-open <file> - to open file in termux/app
+*** ls - to view all files
+*** clear - to clear sceeen
+*** pwd - to find file path
+*** dir - to view all files
+*** cd <file>  - to change directory
+*** cd .. - to go back/ step back
+*** cd ~ / cd - to reset or back to zero
+*** mkdir - to create folder
+*** rmdir - to delete folder
+*** rm <file> - to delete file
+*** rm <folder> - to delete empty folder
+*** rm -rf <file/folder> - to delete all
+*** touch <file name> - to create new file
+*** cp <source> <destination>` -  Copy files or directories.
+*** mv <source> <destination>` - Move or rename files
+*** wget: Downloads files from the internet.
+*** cat - Display File Contents
+*** history - command shows a list of previously used commands
+*** `df` - Display disk usage.
+*** du - display something
+*** uname -a` - Display system information.
+*** top` - Display system processes.
+*** mv - to rename files ( mv 'filename' 'new file name' )
+
+
+
+*** vim <File name> - to open compiler/editor
+*** micro <File name> -  to open compiler/ editor || CTRL + q + y  - to exit
+*** nano <File name> - to open compiler/editor || i - insert  || ESC + : w/q - save&exit
+
+
+
+*** VIM -  click the Cirle with arraw at the left side then " : " + " w " to Save after to exit " : " + " q "
+
+
+
+
+*** cmatrix - Cool rain / Cmatrix + color
+*** cacafire - Cool Fire
+*** figlet "text" - to make big font
+*** nsnake - cool snake game
+*** bastet - box cool game
+
+____ ___ _____                                                 _
+ / ___|_ _|_   _|   ___ ___  _ __ ___  _ __ ___   __ _ _ __   __| |___
+| |  _ | |  | |    / __/ _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|
+| |_| || |  | |   | (_| (_) | | | | | | | | | | | (_| | | | | (_| \__ \
+ \____|___| |_|    \___\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/
+
+
+ **** git init - to initialize repo
+ **** git add . - to prepare before commiting
+ **** git commit - to be ready to push in github
+ **** git remote add origin <url> - to connect git & github
+ **** git push origin master / main - to push or upload to github
+ **** git log - to view commits/ history
+ **** git log --oneline - same but in specific way
+ **** git branch - to view current branch
+ **** git checkout <num in git log> to go back the previous code
+ **** git clone <url> - copy/ Clone a repository into a new directory from github
+ **** git  fetch -  Download objects and refs from another repository
+ **** git  pull <url> -Fetch from and integrate with another repository/ a local branch
+ **** git config --global --add safe.directory /storage/emulated/0/Documents/Termux-Commands
+ ****  git config --global user.email "you@example.com" - to know git who u r
+ ****  git config --global user.name "Your Name" - to know git ur name
+ ****  git remote -v - to see the link repo
+
+
+
+
+// TO LOGIN GITHUB IN TERMUX AND PUSH AUTOMATICALLY
+
+
+
+OPTION 1: (push automatically)
+
+*** step 1: apt / nala install gh
+*** step 2: gh auth login
+*** step 3: choose github
+*** step 4: choose HTTP
+*** step 5: login with a web browser
+*** step 6: copy the code provided by termux and enter to open github in chrome then paste it.
+            it will automatically open in chrome when u enter after copying the code. finish.
+
+
+
+OPTION 2: (using github token link)
+
+**** When u want to push for the first time in github u need git to know who u are
+     by the commands of global --user and it ask your github email and pass but u just need
+     to enter the github email and create a token (classic) from github setting theb u will enter it
+     as a password. then push. the bad thing is it will ask again. then paste the token link.
+
+
+
+_____                                _____ _
+|_   _|__ _ __ _ __ ___  _   ___  __ |_   _| |__   ___ _ __ ___   ___
+  | |/ _ \ '__| '_ ` _ \| | | \ \/ /   | | | '_ \ / _ \ '_ ` _ \ / _ \
+  | |  __/ |  | | | | | | |_| |>  <    | | | | | |  __/ | | | | |  __/
+  |_|\___|_|  |_| |_| |_|\__,_/_/\_\   |_| |_| |_|\___|_| |_| |_|\___|
+
+
+*** step 1 - apt update && apt upgrade
+*** step 2 - pkg install python
+*** step 3 - pkg install git
+*** step 4 - git clone https://github.com/WhiteSoulEvLF/Termux-Theme.git
+*** step 5 - cd Termux-Theme
+*** step 6 - bash Requirements.sh
+*** step 7 - bash Main.s
+
+
+
+
+ ____  _   _ _____ ____  _     ___   ____ _  __
+/ ___|| | | | ____|  _ \| |   / _ \ / ___| |/ /
+\___ \| |_| |  _| | |_) | |  | | | | |   | ' /
+ ___) |  _  | |___|  _ <| |__| |_| | |___| . \
+|____/|_| |_|_____|_| \_\_____\___/ \____|_|\_\
+
+  ____ ___  __  __ __  __    _    _   _ ____  ____
+ / ___/ _ \|  \/  |  \/  |  / \  | \ | |  _ \/ ___|
+| |  | | | | |\/| | |\/| | / _ \ |  \| | | | \___ \
+| |__| |_| | |  | | |  | |/ ___ \| |\  | |_| |___) |
+ \____\___/|_|  |_|_|  |_/_/   \_\_| \_|____/|____/
+
+
+Sherlock is a popular tool that is used to find someone’s all social media platforms accounts just by their username. It is capable of finding someone on over 150 social media platforms.
+Sherlock just needs a username, and then it will automatically search for that specific username on over 150 popular social media platforms.
+
+
+**** step 1: apt update && apt upgrade -yh
+**** step 2: pkg install git -y
+**** step 3: pkg install golang -y
+**** step 4: git clone https://github.com/mesuutt/sherlock.git
+**** step 5: cd sherlock
+**** step 6: go mod init sherlock
+**** step 7: go get github.com/fatih/color && go get github.com/spf13/cobra
+**** step 8: go build
+**** step 9: ./sherlock
+
+**** cd sherlock
+
+**** step 10: ./sherlock <username> - to run sherlock
+**** step 11: ./sherlock example_username_123 - Example
+
+
+
+
+
+ _   _    _    ____ _  _____ _   _  ____   _____ ___   ___  _     ____ /\/|
+| | | |  / \  / ___| |/ /_ _| \ | |/ ___| |_   _/ _ \ / _ \| |   / ___|/\/
+| |_| | / _ \| |   | ' / | ||  \| | |  _    | || | | | | | | |   \___ \
+|  _  |/ ___ \ |___| . \ | || |\  | |_| |   | || |_| | |_| | |___ ___) |
+|_| |_/_/   \_\____|_|\_\___|_| \_|\____|   |_| \___/ \___/|_____|____/
+
+
+
+
+***** Step 1: apt update && apt upgrade
+***** Step 2: apt install git
+***** Step 3: git clone https://github.com/TermuxHackz/tools-installer
+***** Step 4: cd tools-installer
+***** Step 5: chmod 777 *
+***** Step 6: bash tools-installer.sh
+
+***** Note: cd tools-installer then ./tools-installer.sh
+
+
+
+ ____             _    _____ _         _____           _
+|  _ \  __ _ _ __| | _|  ___| |_   _  |_   _|__   ___ | |
+| | | |/ _` | '__| |/ / |_  | | | | |   | |/ _ \ / _ \| |
+| |_| | (_| | |  |   <|  _| | | |_| |   | | (_) | (_) | |
+|____/ \__,_|_|  |_|\_\_|   |_|\__, |   |_|\___/ \___/|_|
+                               |___/
+
+
+**** Step 1: pkg install python2
+**** Step 2: pkg install git
+**** Step 3: https://github.com/Ranginang67/DarkFly-Tool
+**** Step 4: cd DarkFly-Tool
+**** Step 5: python2 install.py
+
+**** Step 6: DarkFly
+
+**** Note: DarkFly then run
+
+
+
+
+ _____               _      _
+|  ___|__  ___   ___(_) ___| |_ _   _
+| |_ / __|/ _ \ / __| |/ _ \ __| | | |
+|  _|\__ \ (_) | (__| |  __/ |_| |_| |
+|_|  |___/\___/ \___|_|\___|\__|\__, |
+                                |___/
+
+**** step 1: cd tools-installer - installs fsociety
+**** Step 2: ./install.sh
+**** Step 3: python2 fsociety.py
+
+
+Note: to run just cd tools-installer and cd fsociety then python2 fsociety.py
+
+
+
+ _____ _     _
+|  ___(_)___| |__
+| |_  | / __| '_ \
+|  _| | \__ \ | | |
+|_|   |_|___/_| |_|
+
+
+type "fish" then root or fake Root
+
+
+DarkFly
+
+type "darkfly"
+
