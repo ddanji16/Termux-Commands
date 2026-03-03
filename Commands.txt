@@ -83,6 +83,9 @@ ____ ___ _____                                                 _
  ****  git config --global user.email "you@example.com" - to know git who u r
  ****  git config --global user.name "Your Name" - to know git ur name
 
+  *** git config user.email - to show email address
+  *** git config user.name - to show full name
+  ***  git config --list - to show some details
 
 
 // TO LOGIN GITHUB IN TERMUX AND PUSH AUTOMATICALLY
